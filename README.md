@@ -208,7 +208,7 @@ To je to. 🫧
 # Pomagala
 
 1. Mood folder → 2K images  
-https://aistudio.google.com/
+https://aistudio.google.com
 
 2. Design flow for speed  
 https://github.com/julianoczkowski/designer-skills
@@ -217,13 +217,13 @@ https://github.com/julianoczkowski/designer-skills
 https://icones.js.org/
 
 4. Subtle animations  
-https://animejs.com/documentation/getting-started/
+https://animejs.com/documentation/getting-started
 
 5. Figma board  
 https://www.figma.com/design/B6w2bswSnGeUmxNy9l9rus/Black-Lagoon-Games
 
 6. Timelapse  
-https://www.icloud.com/photos/
+https://share.icloud.com/photos/08fyV69Imfu852pKJhh3vLWKA
 
 ---
 
