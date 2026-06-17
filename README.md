@@ -33,7 +33,7 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 
 Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest.
 
-**Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn., katerega bi ljudje notranje občutili in hopefully integrirali v kulturo.
+**Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn., katerega bi ljudje notranje občutili in hopefully integrirali v kulturo.**
 
 ---
 
