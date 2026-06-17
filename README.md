@@ -97,10 +97,10 @@ Claude Session:
 ## Deliverable
 **Single `index.html` file** (~35KB HTML + CSS + JS), `assets/` folder with logos and moodboard images.
 
-**Ready to:**
+**Ready to manual:**
 - Push to GitHub
-- Drag onto Netlify for instant deploy
-- Send to Luka with the pitch email
+- Netlify deploy
+- Send to Luka
 
 **No further changes needed** — the page is complete, accessible, performant, and stands on its own (readable before/during/after the pitch meeting).
 
