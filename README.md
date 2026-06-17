@@ -1,121 +1,236 @@
 # zigaxblg
-Test for Black Lagoon
+## Test for Black Lagoon
 
 ---
 
 Ekipa ciao,
 
-vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v moje misli. Pišem na hitro (brez zamer), ker ura teče in rad dostavim, kar obljubim.
+vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v moje razmišljanje. Pišem na hitro (brez zamer), ker ura teče in rad dostavim, kar obljubim.
 
 ---
 
-# Obnova mojega razmišljanja:
+# Obnova mojega razmišljanja
 
 ## Na kratko o zamišljenem procesu:
+
 - Pregledal vaše materiale
-- Skiciral, delal notese — brez tega mi pač ne gre
+- Skiciral, delal zapiske — brez tega mi pač ne gre
 - Figma moodboard (spomnil sem se tvoje omembe Dicka Tracyja — in vmes mi je kliknilo, da je eden mojih najljubših karakterjev Kapitan Nemo)
-- Voice chat s Claudeom glede na moje notese in vašo vsebino, ki sem jo res hitro preletel (super fast glance)
+- Voice chat s Claudeom glede na moje zapiske in vašo vsebino, ki sem jo res hitro preletel (super fast glance)
 - Build PRD v1
 - Re-chat, ker mi je bil whack in preveč "vaše vsebine"
 - Build PRD v2
-- Claude Code je tukaj dobil vaše testne requiremente > zbuildal sem one-pager za strukturo in informacijsko vrednost glede na zahtevan output naloge > /design-flow
+- Claude Code je tukaj dobil vaše testne requirementse → zbuildal sem one-pager za strukturo in informacijsko vrednost glede na zahtevan output naloge → `/design-flow`
 - Promptal Google AI Studio 2x — prvič nisem bil zadovoljen s konsistenco, zato sem zbuildal boljši world-building prompt
-- Export code, nato mini popravki in pucanje na hitro z VSC
+- Export code, nato mini popravki in cleanup na hitro z VSC
 - Deploy repo na GitHub, predhodno polinkano na staging Netlify (cilj sem zgrešil za +20 minut)
 
-## Na kratko o mojih mislih (in kaj sem s tem v rešitvi naredil):
-- Vajbam dokumente, ki ste mi jih poslali
-- Par stvari hejtam. Vedno ko kjerkoli preberem "authenticity", si rečem... damn, niste avtentični. No biggie — znam to nagovoriti, in to dobro 🙂 V one-pagerju sem to besedo porezal in raje pokazal, kako brand zveni brez nje.
-- High-flying words! Too much. Ne sežejo do globine Balatona. To sem porezal in se osredotočil na tdistinct, true stvari — tiste, ki so res samo vaše.
-- .svg logo! Ošpice dobim, ko ga firme nimajo. Malenkost, a pokaže globino resnosti vsake organizacije.
-- Najbolj so mi všeč vaše LN slike, kjer ste... human first 😄 — tam živi vaš brand, in ravno okrog tega sem gradil.
+---
 
-Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest. Vidim neko korelacijo atributov, katerih bi se lahko dotaknili pri nadaljnem razvoju znamke, atributov, storytellinga... Goes deep.
+## Na kratko o mojih mislih (in kaj sem s tem naredil v rešitvi):
+
+- Vajbal sem dokumente, ki ste mi jih poslali
+- Par stvari sem zavestno porezal. Vedno ko kjerkoli preberem "authenticity", si rečem... damn, niste avtentični. No biggie — znam to nagovoriti, in to dobro 🙂 V one-pagerju sem to besedo porezal in raje pokazal, kako brand zveni brez nje.
+- High-flying words! Too much. Ne sežejo do globine Balatona. To sem porezal in se osredotočil na distinct, true stvari — tiste, ki so res samo vaše.
+- .svg logo! Ošpice dobim, ko ga firme nimajo. Majhna stvar, ampak pokaže globino resnosti vsake organizacije.
+- Najbolj so mi všeč vaše LinkedIn slike, kjer ste... human first 😄 Tam živi vaš brand, in ravno okrog tega sem gradil.
+
+Zdaj, jaz to vidim tako... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest. Vidim neko korelacijo atributov, katerih bi se lahko dotaknili pri nadaljnjem razvoju znamke, atributov, storytellinga... Goes deep.
 
 ---
 
-## Captain Nemo + mathematics — ta kombinacija je srce cele strategije. Evo zakaj.
+# Captain Nemo + mathematics — ta kombinacija je srce cele strategije
 
-### Nemo kot arhitip:
-Jules Verne's Nemo je idealen za Black Lagoon, ker:
+## Nemo kot arhetip
 
-Outlaw intellectual. Ni divjak, je mislec. Zapustil je površje ne ker je propadel, ampak ker je razumel preveč. Zgradil je nekaj bolje.
-Operates by own rules. Nemora se opravičevati, ne prosi dovoljenj. To je BLG — startup speed, farmer logic, ne po playbooku.
-Mastered what others haven't thought to study. To je točka. Medtem ko ostali iGaming študiji delajo 41. templated slot, BLG pogleda pod površje: matematiko, mehaniko, probabilities, RTP.
-Never fully revealed. Partial visibility, always mysterious. Kot BLG monster — silhouette, one eye, tentacle. Intriga, ne jasnost.
-Matematika kot prava razlika.
-V iGaming industriji vsi namreč delajo enake igre?
+Jules Vernejev :contentReference[oaicite:0]{index=0} je idealen za Black Lagoon, ker:
 
-Vidiš kopijo kopije kopije. Grafika se razlikuje. Pravila se kopirajo.
+**Outlaw intellectual.**  
+Ni divjak, je mislec. Zapustil je površje ne zato, ker je propadel, ampak ker je razumel preveč. Zgradil je nekaj boljšega.
+
+**Operates by own rules.**  
+Nemu se ni treba opravičevati in ne prosi dovoljenj. To je BLG — startup speed, farmer logika, ne po playbooku.
+
+**Mastered what others haven't thought to study.**  
+To je glavna točka. Medtem ko ostali iGaming studii delajo 41. templated slot, BLG pogleda pod površje: matematiko, mehaniko, probabilities, RTP.
+
+**Never fully revealed.**  
+Partial visibility, vedno nekaj skrivnostnega. Kot BLG monster — silhouette, one eye, tentacle. Intriga, ne razlaga.
+
+---
+
+# Matematika kot prava razlika
+
+V iGaming industriji vsi delajo podobne igre.
+
+Vidiš kopijo kopije kopije.
+
+Grafika se razlikuje. Pravila se kopirajo.
 
 BLG drugače:
-"We didn't come here to follow rules. We came to take slot games deeper."
+
+> "We didn't come here to follow rules. We came to take slot games deeper."
+
+Kaj pomeni deeper?
+
+Matematika na prvem mestu.
+
+- 20% PhD-jev v teamu
+- Deep R&D, ne plitka produkcija
+- Ime igram: "Monster Mega Hit" — ampak pod tablo je probability distribution, RTP calculation, mechanic innovation, ki je ostali ne vidijo
+- Game families share math, share DNA — sistemski pristop
+
+Nemo je fizičnost tega.
+
+Kapitana Nemo sam ne bi bil dovolj (samo mitologija). Ampak Nemo, ki razume matematiko — to je BLG.
 
 ---
 
-Kaj pomeni deeper? Matematika na prvem mestu.
+# Njegov glas v kampanjah:
 
-20% PHDs na teamu
-Deep R&D, ne plitka produkcija
-Ime igram: "Monster Mega Hit" — ampak pod tablo je probability distribution, RTP calculation, mechanic innovation ki ji ostali ne vidijo
-Game families share math, share DNA — sistemski pristop
-Nemo je fizikalnost tega
-Kapitana Nemo sam ne bi bil dovolj (samo mitologija). Ampak Nemo ki razume matematiko — to je BLG.
+> "I watched 1,000,000× happen."
 
-### Njegovglas v kampanjah:
-"I watched 1,000,000× happen." — experience, podatki, verjetnost
-"You set the bet. I set the math." — on ni random, on je sistematičen
-"Every reel it touches becomes legendary. It ran the math." — ni magija, je inženirstvo
-To je signal za operatorje: Ne kupuješ misterija. Kupuješ intelligenco.
+Experience, podatki, verjetnost.
 
-### Zakaj to deluje za B2B
-Operatorji se sprašujejo: "Zakaj bi bil BLG drugačen?"
-Odgovor ni: "Ker imamo cool monster."
-Odgovor je: "Ker razumemo stvari, ki jih površje ne vidi. Matematiko. Sistemske pristope. Globino."
+> "You set the bet. I set the math."
 
-Nemo je symbol tega. On je ancient intelligence watching probability. Kot BLG v industriji. Vsi vemo, da je probability... Nam naklonjen :) 
-Tisti s katerim se Aleš pogovarja na drugi strani od operaterjev, mora to le začutit.
+On ni random. On je sistematičen.
 
-### Verne + math = filosofija
-Jules Verne je pisca, ki je znanstveno fantasijo — ampak s tehničnim podkupom.
-Njegova dela (20,000 Leagues Under the Sea, Journey to the Center of the Earth) so polna:
-Presiznosti inženirstva (Nautilus je pravi stroj, ne magija)
-Raziskovanja neznanih sistemov
-Intelektualne globine
+> "Every reel it touches becomes legendary. It ran the math."
+
+Ni magija. Je inženirstvo.
+
+To je signal za operatorje:
+
+Ne kupuješ misterija.
+
+Kupuješ inteligenco.
+
+---
+
+# Zakaj to deluje za B2B
+
+Operatorji se sprašujejo:
+
+"Zakaj bi bil BLG drugačen?"
+
+Odgovor ni:
+
+"Ker imamo cool monster."
+
+Odgovor je:
+
+"Ker razumemo stvari, ki jih površje ne vidi. Matematiko. Sistemske pristope. Globino."
+
+Nemo je simbol tega.
+
+On je ancient intelligence watching probability.
+
+Kot BLG v industriji.
+
+Vsi vemo, da je probability... nam naklonjen :)
+
+Tisti, s katerim se Aleš pogovarja na drugi strani od operaterjev, mora to samo začutiti.
+
+---
+
+# Verne + math = filozofija
+
+Jules Verne je pisec, ki je znanstveno fantastiko gradil s tehničnim podkupom.
+
+Njegova dela:
+
+- 20,000 Leagues Under the Sea
+- Journey to the Center of the Earth
+
+so polna:
+
+- preciznosti inženirstva
+- raziskovanja neznanih sistemov
+- intelektualne globine
+
 To je Black Lagoon DNA.
 
-### Površje — iGaming industrija — je bučna, poplava enakih iger.
-### Globina — BLG — je tiho, precizna firma, matematično v fundamentalih. Kot Nemo v svojem lagunu.
+Površje — iGaming industrija — je bučno, poplava enakih iger.
 
-### TLDR
+Globina — BLG — je tiha, precizna firma, matematično v fundamentalih.
+
+Kot Nemo v svojem lagunu.
+
+---
+
+# TL;DR
+
 Nemo + matematika ni random.
 
-Diferenciator — operator pogleda na BLG in reče: "Oni vedo neki, kar drugi ne"
-Brand voice — ne "trust us, we're cool" ampak "we understand probability, we engineer depth"
-Culture marker — interno: "naš R&D je resen, naša matematika je prednost"
-Verne-esque philosophy — ancient intelligence + precise engineering = zaupanja vredno
-Nemo sam = simpatičen. Nemo ki razume matematiko in vodi B2B strategijo iGaming studioja = legitimnost.
+**Diferenciator**  
+Operator pogleda BLG in reče:
+
+"Oni vedo nekaj, česar drugi ne."
+
+**Brand voice**  
+Ne:
+
+"Trust us, we're cool"
+
+Ampak:
+
+"We understand probability, we engineer depth"
+
+**Culture marker**
+
+Interno:
+
+- naš R&D je resen
+- naša matematika je prednost
+- gradimo nekaj globljega
+
+**Verne-esque philosophy**
+
+Ancient intelligence + precise engineering = zaupanja vredno.
+
+Nemo sam = simpatičen.
+
+Nemo, ki razume matematiko in vodi B2B strategijo iGaming studia = legitimnost.
 
 To je to. 🫧
 
-**Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn., katerega bi ljudje notranje občutili in hopefully integrirali v kulturo.**
+---
+
+Pod črto:
+
+Če bi se ujeli, znam(/-va) zbuildati svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem.
+
+Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool faktor itd., katerega bi ljudje občutili in integrirali v kulturo.
 
 ---
 
-## Pomagala:
-1. mood folder -> 2K images (https://aistudio.google.com/, Nano Banana Pro, gemini-3-pro-img)
-2. design flow for speed -> https://github.com/julianoczkowski/designer-skills
-3. icons -> https://icones.js.org/
-4. subtle animations -> https://animejs.com/documentation/getting-started/
-5. figma board -> https://www.figma.com/design/B6w2bswSnGeUmxNy9l9rus/Black-Lagoon-Games?node-id=0-1&t=c8n9RRPJAJbmDFHH-1
-6. Timelapse -> https://www.icloud.com/photos/#/icloudlinks/08fyV69Imfu852pKJhh3vLWKA/0/
+# Pomagala
+
+1. Mood folder → 2K images  
+https://aistudio.google.com/
+
+2. Design flow for speed  
+https://github.com/julianoczkowski/designer-skills
+
+3. Icons  
+https://icones.js.org/
+
+4. Subtle animations  
+https://animejs.com/documentation/getting-started/
+
+5. Figma board  
+https://www.figma.com/design/B6w2bswSnGeUmxNy9l9rus/Black-Lagoon-Games
+
+6. Timelapse  
+https://www.icloud.com/photos/
 
 ---
 
 # Obnova mojega Claude AI Sessiona:
 
 ## Starting Point
+
 - **Context:** PRD (5–10 min internal pitch), 3 PDF brand documents (strategy, CGP, presentation), 2 logo assets
 - **Goal:** One self-contained HTML page, light mode, no build step, ready for Netlify deploy
 
@@ -142,31 +257,31 @@ To je to. 🫧
 
 ### 5. **Images & Moodboard Rebuild**
 - **Optimization:** Your 10 concept images were ~40MB total → generated web-optimized versions (max 2200px, q85, progressive) = **3.7MB** in `assets/mood/`
-- **Layout:** Replaced fixed 16/10 aspect grid with **CSS-column masonry** respecting native ratios:
-  - The Descent: tall portrait (1228×2200)
-  - The Comic Strip & Surface Conquered: square-ish (2016×2088)
-  - Other 7: cinematic 21:9 (2200×933)
-- **Lightbox:** Click any frame → full image on dark blurred backdrop + caption (prompt #, title, description), close via ×/Escape/backdrop click
-- **Accessibility:** keyboard nav (Enter/Space), focus management, aria-modal, alt text
+- **Layout:** Replaced fixed 16/10 aspect grid with **CSS-column masonry** respecting native ratios
+- **Lightbox:** Click any frame → full image on dark blurred backdrop + caption
+- **Accessibility:** keyboard nav (Enter/Space), focus management, aria-modal
 
 ### 6. **Export for Translation** (COPY.md)
-- Extracted all visible text in reading order, grouped by section
+- Extracted all visible text in reading order
 - Flagged canonical brand lines `[keep]`, AI prompt `[keep]`, and transcreation notes for Slovenian translator
-- Ready for SL → pickup without re-reading the HTML
 
 ### 7. **Verification & Cleanup**
-- Tested in preview: hero, all cards, campaign cards, evolution timeline, monster section, masonry moodboard, lightbox click
-- Confirmed all 10 images load, zero broken
+- Tested in preview
+- Confirmed all 10 images load
 - Removed temp preview configs
-- Built folder is clean: `index.html` + `assets/` (logos + mood/ optimized images)
+- Built folder is clean: `index.html` + `assets/`
 
 ## Deliverable
-**Single `index.html` file** (~35KB HTML + CSS + JS), `assets/` folder with logos and moodboard images.
 
-**Ready to manual:**
+**Single `index.html` file** + `assets/` folder.
+
+Ready to:
+
 - Push to GitHub
 - Netlify deploy
 - Send to Luka
 
-**Self evaluate based on Figma HTML import guardrails - No further changes needed** — the page is complete, accessible, performant, and stands on its own (readable before/during/after the pitch meeting).
+## Self evaluate based on Figma HTML import guardrails — OK! No further changes needed.
 
+
+To je bolj v tvojem originalnem ritmu — samo "poliran", ne prepisan.
