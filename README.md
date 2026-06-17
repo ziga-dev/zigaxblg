@@ -31,7 +31,73 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 - .svg logo! Ošpice dobim, ko ga firme nimajo. Malenkost, a pokaže globino resnosti vsake organizacije.
 - Najbolj so mi všeč vaše LN slike, kjer ste... human first 😄 — tam živi vaš brand, in ravno okrog tega sem gradil.
 
-Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest.
+Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest. Vidim neko korelacijo atributov, katerih bi se lahko dotaknili pri nadaljnem razvoju znamke, atributov, storytellinga... Goes deep.
+
+---
+
+## Captain Nemo + mathematics — ta kombinacija je srce cele strategije. Evo zakaj.
+
+### Nemo kot arhitip:
+Jules Verne's Nemo je idealen za Black Lagoon, ker:
+
+Outlaw intellectual. Ni divjak, je mislec. Zapustil je površje ne ker je propadel, ampak ker je razumel preveč. Zgradil je nekaj bolje.
+Operates by own rules. Nemora se opravičevati, ne prosi dovoljenj. To je BLG — startup speed, farmer logic, ne po playbooku.
+Mastered what others haven't thought to study. To je točka. Medtem ko ostali iGaming študiji delajo 41. templated slot, BLG pogleda pod površje: matematiko, mehaniko, probabilities, RTP.
+Never fully revealed. Partial visibility, always mysterious. Kot BLG monster — silhouette, one eye, tentacle. Intriga, ne jasnost.
+Matematika kot prava razlika.
+V iGaming industriji vsi namreč delajo enake igre?
+
+Vidiš kopijo kopije kopije. Grafika se razlikuje. Pravila se kopirajo.
+
+BLG drugače:
+"We didn't come here to follow rules. We came to take slot games deeper."
+
+---
+
+Kaj pomeni deeper? Matematika na prvem mestu.
+
+20% PHDs na teamu
+Deep R&D, ne plitka produkcija
+Ime igram: "Monster Mega Hit" — ampak pod tablo je probability distribution, RTP calculation, mechanic innovation ki ji ostali ne vidijo
+Game families share math, share DNA — sistemski pristop
+Nemo je fizikalnost tega
+Kapitana Nemo sam ne bi bil dovolj (samo mitologija). Ampak Nemo ki razume matematiko — to je BLG.
+
+### Njegovglas v kampanjah:
+"I watched 1,000,000× happen." — experience, podatki, verjetnost
+"You set the bet. I set the math." — on ni random, on je sistematičen
+"Every reel it touches becomes legendary. It ran the math." — ni magija, je inženirstvo
+To je signal za operatorje: Ne kupuješ misterija. Kupuješ intelligenco.
+
+### Zakaj to deluje za B2B
+Operatorji se sprašujejo: "Zakaj bi bil BLG drugačen?"
+Odgovor ni: "Ker imamo cool monster."
+Odgovor je: "Ker razumemo stvari, ki jih površje ne vidi. Matematiko. Sistemske pristope. Globino."
+
+Nemo je symbol tega. On je ancient intelligence watching probability. Kot BLG v industriji. Vsi vemo, da je probability... Nam naklonjen :) 
+Tisti s katerim se Aleš pogovarja na drugi strani od operaterjev, mora to le začutit.
+
+### Verne + math = filosofija
+Jules Verne je pisca, ki je znanstveno fantasijo — ampak s tehničnim podkupom.
+Njegova dela (20,000 Leagues Under the Sea, Journey to the Center of the Earth) so polna:
+Presiznosti inženirstva (Nautilus je pravi stroj, ne magija)
+Raziskovanja neznanih sistemov
+Intelektualne globine
+To je Black Lagoon DNA.
+
+### Površje — iGaming industrija — je bučna, poplava enakih iger.
+### Globina — BLG — je tiho, precizna firma, matematično v fundamentalih. Kot Nemo v svojem lagunu.
+
+### TLDR
+Nemo + matematika ni random.
+
+Diferenciator — operator pogleda na BLG in reče: "Oni vedo neki, kar drugi ne"
+Brand voice — ne "trust us, we're cool" ampak "we understand probability, we engineer depth"
+Culture marker — interno: "naš R&D je resen, naša matematika je prednost"
+Verne-esque philosophy — ancient intelligence + precise engineering = zaupanja vredno
+Nemo sam = simpatičen. Nemo ki razume matematiko in vodi B2B strategijo iGaming studioja = legitimnost.
+
+To je to. 🫧
 
 **Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn., katerega bi ljudje notranje občutili in hopefully integrirali v kulturo.**
 
