@@ -17,7 +17,7 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 - Build PRD v1
 - Re-chat, ker mi je bil whack in preveč "vaše vsebine"
 - Build PRD v2
-- Claude Code je tukaj dobil vaše testne requiremente > zbuildal sem one-pager za strukturo in informacijsko vrednost glede na zahtevan output naloge, po procesu https://github.com/julianoczkowski/designer-skills
+- Claude Code je tukaj dobil vaše testne requiremente > zbuildal sem one-pager za strukturo in informacijsko vrednost glede na zahtevan output naloge > /design-flow
 - Promptal Google AI Studio 2x — prvič nisem bil zadovoljen s konsistenco, zato sem zbuildal boljši world-building prompt
 - Export code, nato mini popravki in pucanje na hitro z VSC
 - Deploy repo na GitHub, predhodno polinkano na staging Netlify
@@ -33,3 +33,15 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest.
 
 Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebujete za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn.
+
+---
+
+mood folder -> 2K images (https://aistudio.google.com/, Nano Banana Pro, gemini-3-pro-img)
+design flow for speed -> https://github.com/julianoczkowski/designer-skills
+icons -> https://icones.js.org/
+subtle animations -> https://animejs.com/documentation/getting-started/
+figma board -> https://www.figma.com/design/B6w2bswSnGeUmxNy9l9rus/Black-Lagoon-Games?node-id=0-1&t=c8n9RRPJAJbmDFHH-1
+
+---
+
+
