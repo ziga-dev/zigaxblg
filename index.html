@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Black Lagoon Games — AI Creative Specialist Pitch · Žiga</title>
+<meta name="description" content="Beyond the reels. Beneath the surface. A one-page pitch for Black Lagoon Games: LinkedIn audit, the What Lives Beneath campaign, brand evolution and the Captain Nemo monster concept." />
+<link rel="icon" href="assets/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Istok+Web:wght@400;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg-base:#F3FAFE;
+    --bg-surface:#FFFFFF;
+    --navy-deep:#253D4C;
+    --navy-mid:#2C546B;
+    --navy-abyss:#121722;
+    --teal-primary:#5BA6BA;
+    --teal-light:#94BECC;
+    --steel:#83A4B2;
+    --text-primary:#253D4C;
+    --text-muted:#5BA6BA;
+    --text-body:#34474F;
+    --accent-gold:#C8962A;
+    --line:rgba(37,61,76,.12);
+    --shadow:0 1px 2px rgba(37,61,76,.04),0 12px 32px rgba(37,61,76,.07);
+    --shadow-lg:0 2px 4px rgba(37,61,76,.06),0 24px 60px rgba(37,61,76,.12);
+    --maxw:1080px;
+    --r:14px;
+    --ease:cubic-bezier(.16,1,.3,1);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Istok Web",system-ui,sans-serif;
+    background:var(--bg-base);
+    color:var(--text-body);
+    line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4,.display{font-family:"Montserrat",sans-serif;letter-spacing:-.01em}
+  .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+  a{color:var(--teal-primary);text-decoration:none}
+  a:hover{color:var(--navy-mid)}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  section{padding:clamp(64px,9vw,118px) 0;position:relative}
+  .eyebrow{
+    font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.32em;
+    text-transform:uppercase;color:var(--teal-primary);font-weight:600;
+    display:inline-flex;align-items:center;gap:10px;margin-bottom:18px;
+  }
+  .eyebrow::before{content:"";width:26px;height:1px;background:var(--teal-primary);display:inline-block}
+  h2.title{
+    font-size:clamp(1.9rem,4.4vw,3rem);font-weight:800;color:var(--navy-deep);
+    line-height:1.04;margin-bottom:10px;
+  }
+  /* the CGP "teal accent intro line" grammar */
+  .lede{
+    font-size:clamp(1.05rem,2vw,1.32rem);color:var(--teal-primary);font-weight:700;
+    font-family:"Montserrat",sans-serif;max-width:46ch;margin-bottom:30px;line-height:1.35;
+  }
+
+  /* ============ TOP BAR ============ */
+  header.bar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(243,250,254,.82);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+  }
+  .bar-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .bar-logo{display:inline-flex;align-items:center;line-height:0}
+  .bar-logo img{height:34px;display:block}
+  .bar nav{display:flex;gap:26px}
+  .bar nav a{
+    font-family:"Montserrat",sans-serif;font-weight:600;font-size:.82rem;
+    color:var(--navy-mid);letter-spacing:.01em;
+  }
+  .bar nav a:hover{color:var(--teal-primary)}
+  @media(max-width:760px){.bar nav{display:none}}
+
+  /* ============ HERO ============ */
+  .hero{
+    background:
+      radial-gradient(120% 90% at 80% -10%,rgba(91,166,186,.16),transparent 60%),
+      linear-gradient(180deg,#FFFFFF 0%,var(--bg-base) 100%);
+    padding-top:clamp(56px,8vw,96px);overflow:hidden;
+  }
+  .hero canvas{position:absolute;inset:auto 0 0 0;width:100%;height:240px;opacity:.5;pointer-events:none}
+  .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:54px;align-items:center;position:relative;z-index:2}
+  @media(max-width:880px){.hero-grid{grid-template-columns:1fr;gap:40px}}
+  .hero h1{
+    font-size:clamp(2.5rem,7vw,4.6rem);font-weight:800;color:var(--navy-deep);
+    line-height:.98;letter-spacing:-.025em;
+  }
+  .hero h1 em{font-style:normal;color:var(--teal-primary);display:block}
+  .hero .tag{
+    font-family:"JetBrains Mono",monospace;font-size:.8rem;letter-spacing:.28em;
+    text-transform:uppercase;color:var(--text-muted);margin-bottom:26px;
+  }
+  .hero p.sub{font-size:1.16rem;max-width:50ch;margin:24px 0 0;color:var(--text-body)}
+  .hero .who{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{
+    display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;
+    background:var(--bg-surface);border:1px solid var(--line);box-shadow:var(--shadow);
+    font-size:.82rem;font-weight:700;font-family:"Montserrat",sans-serif;color:var(--navy-mid);
+  }
+  .chip svg{width:15px;height:15px;color:var(--teal-primary)}
+  .hero-badge{
+    background:var(--bg-surface);border:1px solid var(--line);border-radius:20px;
+    padding:38px 30px;box-shadow:var(--shadow-lg);text-align:center;position:relative;overflow:hidden;
+  }
+  .hero-badge::after{
+    content:"";position:absolute;left:0;right:0;bottom:0;height:5px;
+    background:linear-gradient(90deg,var(--navy-deep),var(--teal-primary),var(--teal-light));
+  }
+  .hero-badge img{width:148px;height:auto;margin:0 auto 18px;display:block;filter:drop-shadow(0 10px 24px rgba(37,61,76,.18))}
+  .hero-badge .q{font-family:"Montserrat",sans-serif;font-weight:700;color:var(--navy-deep);font-size:1.02rem;line-height:1.4}
+  .hero-badge .q span{color:var(--teal-primary)}
+
+  /* ============ GENERIC CARD GRID ============ */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+  @media(max-width:820px){.split{grid-template-columns:1fr;gap:20px}}
+  .col-head{
+    font-family:"Montserrat",sans-serif;font-weight:800;font-size:.78rem;letter-spacing:.18em;
+    text-transform:uppercase;margin-bottom:18px;display:flex;align-items:center;gap:10px;
+  }
+  .col-head.good{color:var(--teal-primary)}
+  .col-head.improve{color:var(--accent-gold)}
+  .col-head svg{width:18px;height:18px}
+  .card{
+    background:var(--bg-surface);border:1px solid var(--line);border-radius:var(--r);
+    padding:22px 22px;box-shadow:var(--shadow);margin-bottom:16px;
+    transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+  }
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-lg)}
+  .card h4{font-size:1.02rem;color:var(--navy-deep);font-weight:700;margin-bottom:7px;line-height:1.3}
+  .card p{font-size:.95rem;color:var(--text-body)}
+  .card .tagq{color:var(--teal-primary);font-style:italic}
+
+  .note{
+    margin-top:26px;border-left:3px solid var(--teal-primary);
+    background:rgba(91,166,186,.07);border-radius:0 10px 10px 0;padding:16px 20px;
+    font-size:.92rem;color:var(--navy-mid);
+  }
+
+  /* ============ SECTION SURFACE VARIANTS ============ */
+  .surface-tint{background:linear-gradient(180deg,var(--bg-surface),var(--bg-base))}
+
+  /* ============ CAMPAIGN ============ */
+  .weeks{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
+  @media(max-width:820px){.weeks{grid-template-columns:1fr 1fr}}
+  @media(max-width:480px){.weeks{grid-template-columns:1fr}}
+  .week{
+    background:var(--bg-surface);border:1px solid var(--line);border-radius:var(--r);
+    padding:24px 20px;box-shadow:var(--shadow);position:relative;overflow:hidden;
+    transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+  }
+  .week:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+  .week .wk{font-family:"JetBrains Mono",monospace;font-size:.72rem;letter-spacing:.22em;color:var(--teal-primary);text-transform:uppercase}
+  .week h4{font-family:"Montserrat";font-style:italic;font-size:1.18rem;color:var(--navy-deep);margin:8px 0 4px}
+  .week .fmt{font-size:.78rem;color:var(--steel);font-weight:700;text-transform:uppercase;letter-spacing:.04em;margin-bottom:12px}
+  .week p{font-size:.9rem;color:var(--text-body);border-top:1px dashed var(--line);padding-top:12px}
+  .week .num{position:absolute;right:14px;top:8px;font-family:"Montserrat";font-weight:800;font-size:3.2rem;color:rgba(91,166,186,.1);line-height:1}
+
+  .sample{
+    margin-top:30px;background:linear-gradient(135deg,var(--navy-deep),var(--navy-abyss));
+    color:#E7F3F7;border-radius:18px;padding:clamp(28px,4vw,44px);box-shadow:var(--shadow-lg);
+    position:relative;overflow:hidden;
+  }
+  .sample::before{content:"";position:absolute;right:-60px;top:-60px;width:280px;height:280px;border-radius:50%;
+    background:radial-gradient(circle,rgba(91,166,186,.35),transparent 70%);filter:blur(8px)}
+  .sample .lbl{font-family:"JetBrains Mono";font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--teal-light);position:relative}
+  .sample h3{font-family:"Montserrat";font-weight:800;font-size:clamp(1.4rem,3vw,2rem);color:#fff;margin:12px 0;position:relative}
+  .sample p{color:#Bcd6de;color:rgba(231,243,247,.82);max-width:62ch;position:relative;margin-bottom:14px}
+  .sample .meta{position:relative;display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+  .sample .meta span{font-size:.74rem;font-family:"JetBrains Mono";color:var(--teal-light);border:1px solid rgba(148,190,204,.3);padding:5px 11px;border-radius:999px}
+
+  /* ============ EVOLUTION TIMELINE ============ */
+  .timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+  @media(max-width:820px){.timeline{grid-template-columns:1fr}}
+  .phase{
+    background:var(--bg-surface);border:1px solid var(--line);border-radius:var(--r);
+    padding:26px 24px;box-shadow:var(--shadow);position:relative;
+    transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+  }
+  .phase:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+  .phase .mo{font-family:"JetBrains Mono";font-size:.74rem;letter-spacing:.16em;color:var(--teal-primary);text-transform:uppercase;font-weight:600}
+  .phase h4{font-family:"Montserrat";font-weight:800;font-size:1.2rem;color:var(--navy-deep);margin:8px 0 12px}
+  .phase p{font-size:.93rem;color:var(--text-body)}
+  .phase .dot{width:34px;height:34px;border-radius:50%;background:rgba(91,166,186,.12);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .phase .dot svg{width:18px;height:18px;color:var(--teal-primary)}
+
+  /* ============ MONSTER ============ */
+  .monster{background:linear-gradient(180deg,var(--navy-abyss),var(--navy-deep));color:#DCEAEF;overflow:hidden}
+  .monster .eyebrow{color:var(--teal-light)}
+  .monster .eyebrow::before{background:var(--teal-light)}
+  .monster h2.title{color:#fff}
+  .monster .lede{color:var(--teal-light)}
+  .monster-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;align-items:start;position:relative;z-index:2}
+  @media(max-width:880px){.monster-grid{grid-template-columns:1fr;gap:32px}}
+  .monster p.intro{color:rgba(220,234,239,.86);font-size:1.05rem;margin-bottom:18px;max-width:54ch}
+  .nemo-tag{display:inline-block;font-family:"Montserrat";font-weight:800;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-gold);border:1px solid rgba(200,150,42,.4);padding:6px 14px;border-radius:999px;margin-bottom:22px}
+  .voicebox{background:rgba(18,23,34,.5);border:1px solid rgba(148,190,204,.18);border-radius:16px;padding:26px;backdrop-filter:blur(4px)}
+  .voicebox .vlbl{font-family:"JetBrains Mono";font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--steel);margin-bottom:16px}
+  .quote{font-family:"Montserrat";font-style:italic;font-weight:600;font-size:1.18rem;color:#fff;padding:14px 0;border-bottom:1px solid rgba(148,190,204,.14);position:relative;padding-left:26px}
+  .quote:last-child{border-bottom:none}
+  .quote::before{content:"“";position:absolute;left:0;top:10px;color:var(--teal-primary);font-size:1.8rem;font-family:Georgia,serif}
+  .detail{margin-bottom:22px}
+  .detail h4{font-family:"Montserrat";font-weight:700;color:var(--teal-light);font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px}
+  .detail p{color:rgba(220,234,239,.82);font-size:.96rem}
+  .promptbrief{margin-top:18px;background:rgba(0,0,0,.28);border-radius:12px;border:1px solid rgba(148,190,204,.14);padding:18px 20px}
+  .promptbrief .plbl{font-family:"JetBrains Mono";font-size:.7rem;letter-spacing:.2em;color:var(--accent-gold);text-transform:uppercase;margin-bottom:10px}
+  .promptbrief code{font-family:"JetBrains Mono";font-size:.82rem;color:#Bcd6de;color:rgba(220,234,239,.78);line-height:1.7;display:block}
+
+  /* ============ MOODBOARD (masonry, native image ratios) ============ */
+  /* featured hero frame — the comic strip, full width */
+  .mood-hero{margin:0 auto 18px;max-width:none}
+  /* masonry via CSS columns: items keep their natural aspect ratio */
+  .moodgrid{column-count:3;column-gap:16px;margin-top:0}
+  @media(max-width:820px){.moodgrid{column-count:2}}
+  @media(max-width:480px){.moodgrid{column-count:1}}
+  .frame{
+    position:relative;display:block;width:100%;margin:0 0 16px;
+    break-inside:avoid;border-radius:12px;overflow:hidden;
+    border:1px solid var(--line);box-shadow:var(--shadow);
+    color:#EAF4F7;isolation:isolate;cursor:zoom-in;
+    background:linear-gradient(150deg,var(--navy-mid),var(--navy-abyss) 70%);
+    transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+  }
+  .frame:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+  .frame img{display:block;width:100%;height:auto}
+  /* caption scrim sits over the image */
+  .frame figcaption{
+    position:absolute;left:0;right:0;bottom:0;padding:30px 18px 16px;
+    background:linear-gradient(to top,rgba(18,23,34,.92),rgba(18,23,34,.55) 55%,transparent);
+  }
+  .frame .pn{font-family:"JetBrains Mono";font-size:.7rem;letter-spacing:.2em;color:var(--teal-light);opacity:.95}
+  .frame h4{font-family:"Montserrat";font-weight:800;font-size:1.05rem;color:#fff;margin:4px 0 4px}
+  .frame p{font-size:.82rem;color:rgba(234,244,247,.86);line-height:1.4}
+  .frame .gold-dot{position:absolute;top:14px;right:14px;width:9px;height:9px;border-radius:50%;background:var(--accent-gold);box-shadow:0 0 14px 2px rgba(200,150,42,.6);z-index:2}
+  /* zoom cue */
+  .frame .zoom{position:absolute;top:12px;left:12px;width:30px;height:30px;border-radius:8px;background:rgba(18,23,34,.55);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .35s var(--ease);z-index:2}
+  .frame .zoom svg{width:15px;height:15px;color:#fff}
+  .frame:hover .zoom{opacity:1}
+
+  .mood-note{margin-top:22px;text-align:center;font-size:.86rem;color:var(--steel);font-family:"JetBrains Mono";letter-spacing:.04em}
+
+  /* ============ LIGHTBOX ============ */
+  .lightbox{
+    position:fixed;inset:0;z-index:200;display:none;
+    align-items:center;justify-content:center;padding:clamp(16px,4vw,56px);
+    background:rgba(10,14,20,.92);backdrop-filter:blur(8px);cursor:zoom-out;
+    opacity:0;transition:opacity .3s var(--ease);
+  }
+  .lightbox.open{display:flex}
+  .lightbox.show{opacity:1}
+  .lightbox figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center;gap:14px}
+  .lightbox img{max-width:92vw;max-height:80vh;width:auto;height:auto;border-radius:8px;box-shadow:0 30px 80px rgba(0,0,0,.6);cursor:default}
+  .lightbox figcaption{text-align:center;color:#DCEAEF;max-width:64ch;font-size:.9rem}
+  .lightbox figcaption strong{font-family:"Montserrat";font-weight:800;color:#fff;display:block;font-size:1.05rem;margin-bottom:3px}
+  .lightbox figcaption .pn{font-family:"JetBrains Mono";font-size:.7rem;letter-spacing:.2em;color:var(--teal-light)}
+  .lb-close{position:fixed;top:18px;right:20px;width:42px;height:42px;border:none;border-radius:50%;
+    background:rgba(255,255,255,.1);color:#fff;font-size:1.4rem;line-height:1;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;transition:background .25s var(--ease)}
+  .lb-close:hover{background:rgba(255,255,255,.22)}
+
+  /* ============ FOOTER (CGP navy bar grammar) ============ */
+  footer{background:var(--navy-deep);color:#DCEAEF}
+  .foot-top{padding:clamp(48px,7vw,80px) 0;display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:center}
+  @media(max-width:760px){.foot-top{grid-template-columns:1fr;gap:28px}}
+  .foot-top img{height:40px;margin-bottom:20px}
+  .foot-top h3{font-family:"Montserrat";font-weight:800;color:#fff;font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.1;margin-bottom:10px}
+  .foot-top p{color:rgba(220,234,239,.78);max-width:42ch}
+  .foot-cta{text-align:right}
+  @media(max-width:760px){.foot-cta{text-align:left}}
+  .foot-cta a.btn{
+    display:inline-flex;align-items:center;gap:10px;background:var(--teal-primary);color:#fff;
+    font-family:"Montserrat";font-weight:700;padding:13px 22px;border-radius:999px;font-size:.92rem;
+    transition:background .3s var(--ease),transform .3s var(--ease);
+  }
+  .foot-cta a.btn:hover{background:var(--teal-light);transform:translateY(-2px)}
+  .foot-cta a.btn svg{width:17px;height:17px}
+  .foot-bar{border-top:1px solid rgba(148,190,204,.16);background:var(--navy-abyss)}
+  .foot-bar-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:20px 0;font-size:.84rem;color:rgba(220,234,239,.7)}
+  .foot-bar-inner a{color:var(--teal-light)}
+  .foot-bar-inner .mono{letter-spacing:.04em}
+
+  /* ============ SCROLL REVEAL ============ */
+  .reveal{opacity:0;transform:translateY(26px)}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1!important;transform:none!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<header class="bar">
+  <div class="wrap bar-inner">
+    <a class="bar-logo" href="#" aria-label="Black Lagoon Games"><img src="assets/logo-horizontal.png" alt="Black Lagoon Games" /></a>
+    <nav>
+      <a href="#audit">Audit</a>
+      <a href="#campaign">Campaign</a>
+      <a href="#brand">Brand</a>
+      <a href="#evolution">Evolution</a>
+      <a href="#monster">The Captain</a>
+      <a href="#world">The World</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <p class="tag reveal">Beyond the reels. Beneath the surface.</p>
+        <h1 class="reveal">We didn't come here<br/>to follow rules.<em>We came to take slot games deeper.</em></h1>
+        <p class="sub reveal">A working pitch for the <strong>AI Creative Specialist</strong> chair — Visual Communications &amp; Marketing. Two tasks. One conviction: a brand is not described. It is surfaced.</p>
+        <div class="who reveal">
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12c2.5-3 6.5-3 9 0s6.5 3 9 0"/><path d="M3 17c2.5-3 6.5-3 9 0s6.5 3 9 0"/></svg>Žiga · Svetlikus / BadCo</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>5–10 min internal pitch</span>
+          <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5l8 5 8-5v14"/></svg>One-page deliverable</span>
+        </div>
+      </div>
+      <div class="hero-badge reveal">
+        <img src="assets/logo.png" alt="Black Lagoon Games crest" />
+        <p class="q">"Most studios post screenshots.<br/>Black Lagoon posts <span>mood</span>.<br/>So does this page."</p>
+      </div>
+    </div>
+  </div>
+  <canvas id="ripple" aria-hidden="true"></canvas>
+</section>
+
+<!-- ===== TASK 1: LINKEDIN AUDIT ===== -->
+<section id="audit">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 01 · LinkedIn Audit</p>
+    <h2 class="title reveal">The brand is already breathing. It just lives in the human moments.</h2>
+    <p class="lede reveal">The instinct is right. The system isn't built yet. Three soundings up, three down.</p>
+    <div class="split">
+      <div class="reveal">
+        <div class="col-head good">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg>What works
+        </div>
+        <div class="card"><h4>The atmospheric video breaks the category</h4><p>The lagoon at night. A silhouette. A coin sinking into black water. Made with AI, unlike anything else in iGaming. Most studios show the machine. This shows the deep. The instinct is right — and so is the execution.</p></div>
+        <div class="card"><h4>The human moments are the real brand</h4><p>Rome. Triglav. Scuba tanks. "Veni. Vidi. Vici." These land because they are true. Nobody is performing authenticity here — they are simply being it. Do more of it. On purpose.</p></div>
+        <div class="card"><h4>The partnership copy, at its best</h4><p class="tagq">"Diving into deeper waters together."</p><p>One line. The metaphor does the rowing. Nothing is explained. This is the voice — find it again, and keep it.</p></div>
+      </div>
+      <div class="reveal">
+        <div class="col-head improve">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>What to improve
+        </div>
+        <div class="card"><h4>The About section reads like a feature list</h4><p>"Deeper side of gaming" lives in the strategy deck. It appears nowhere a customer can read it. The conviction never made the climb to the surface. Fix this one first.</p></div>
+        <div class="card"><h4>The content has no system</h4><p>Launches and milestones. Nothing in the water between them. The page rises with the calendar and goes still when it pauses. A brand needs a pulse between events.</p></div>
+        <div class="card"><h4>The crew isn't amplifying each other</h4><p>Eight aboard, all quiet. One Slack channel. Likes and reposts in the first hour, while the algorithm is watching. Three to four times the reach, for nothing. The easiest win on the page.</p></div>
+      </div>
+    </div>
+    <p class="note reveal">Swap the featured post — SiGMA Rome, seven months cold — for one that tells an operator <em>why Black Lagoon exists</em>. In its own voice. Not a sales sheet.</p>
+  </div>
+</section>
+
+<!-- ===== MINI CAMPAIGN ===== -->
+<section id="campaign" class="surface-tint">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 01 · Mini Campaign</p>
+    <h2 class="title reveal">What Lives Beneath</h2>
+    <p class="lede reveal">Four weeks. One mythology, told in chapters. The monster is never shown — only felt. By the fourth week, the industry is waiting for the next post.</p>
+    <div class="weeks">
+      <div class="week reveal"><span class="num">1</span><div class="wk">Week 01</div><h4>It Stirs</h4><div class="fmt">10s atmospheric video</div><p>"Something beneath the surface has been watching."</p></div>
+      <div class="week reveal"><span class="num">2</span><div class="wk">Week 02</div><h4>It Calculates</h4><div class="fmt">Static visual + copy</div><p>"Every reel it touches becomes legendary. It ran the math."</p></div>
+      <div class="week reveal"><span class="num">3</span><div class="wk">Week 03</div><h4>It Speaks</h4><div class="fmt">Short video · first person</div><p>"You thought the odds were against you. I set the odds."</p></div>
+      <div class="week reveal"><span class="num">4</span><div class="wk">Week 04</div><h4>It Surfaces</h4><div class="fmt">Concept art reveal</div><p>"This is what lives in the Black Lagoon. Properly."</p></div>
+    </div>
+
+    <div class="sample reveal">
+      <div class="lbl">Sample post · Week 1</div>
+      <h3>"The waters have been quiet. Not for long."</h3>
+      <p>Somewhere in the Black Lagoon, something that understands probability better than any mathematician is awake. It doesn't pitch. It doesn't follow up. It just knows what happens when the math goes past the reels. <strong>Week 1 of 4.</strong></p>
+      <p style="color:var(--teal-light);font-family:'JetBrains Mono';font-size:.84rem;">Visual: lagoon surface at night, single ripple, bioluminescent depth below. No logo. No text overlay.</p>
+      <div class="meta">
+        <span>Goal: quality of attention, not follower count</span>
+        <span>Gemini / Veo — image &amp; video</span>
+        <span>Claude — copy iteration</span>
+        <span>Runs parallel to launches</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TASK 2: BRAND REVIEW ===== -->
+<section id="brand">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 02 · Brand Review</p>
+    <h2 class="title reveal">The thinking runs deep. The world isn't built yet.</h2>
+    <p class="lede reveal">"Deeper side of gaming" is yours to own. The chart is sound. The voyage simply hasn't been made.</p>
+    <div class="split">
+      <div class="reveal">
+        <div class="col-head good">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 13l4 4L19 7"/></svg>What works
+        </div>
+        <div class="card"><h4>The strategy document is real thinking</h4><p>The pyramid. The archetypes. The Brand IS / IS NOT table. This is thought, not a template. And almost none of it has surfaced yet.</p></div>
+        <div class="card"><h4>"Depth" is unclaimed territory</h4><p>Everyone claims innovation. Everyone claims authenticity. Nobody claims <em>depth</em> — as a worldview, not a feature. The lagoon holds both: deep product, deep team.</p></div>
+        <div class="card"><h4>The colour &amp; logo system can be recognised</h4><p>Teal. Navy. A tentacle. No one else in iGaming looks like this. It only needs to surface every time — not appear in one post and vanish from the next.</p></div>
+      </div>
+      <div class="reveal">
+        <div class="col-head improve">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 9v4m0 4h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>What to improve
+        </div>
+        <div class="card"><h4>The SWOT under-rates the threats</h4><p>Regulation. A crowded sea. Hyperproduction. Thin operator visibility. All filed as afterthoughts. Knowing where the hull is weak is how a vessel stays afloat.</p></div>
+        <div class="card"><h4>"Authentic" is said so often it stops meaning anything</h4><p>Write "we are authentic" and you have already lost it. Authenticity is a behaviour, never a word. Cut to the two or three things only Black Lagoon can say. Build from there.</p></div>
+        <div class="card"><h4>AI is a tool, not yet a capability</h4><p>Today AI makes the pictures. That is all. For a studio hiring an AI Creative Specialist, that is the thing to change: AI should be <em>how we think</em>, not only how we render.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BRAND EVOLUTION ===== -->
+<section id="evolution" class="surface-tint">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 02 · Brand Evolution</p>
+    <h2 class="title reveal">From documents to world. Six months.</h2>
+    <p class="lede reveal">Close the gap not by adding language, but by removing what's generic — and letting the conviction show.</p>
+    <div class="timeline">
+      <div class="phase reveal">
+        <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h10M4 17h7"/></svg></div>
+        <div class="mo">Month 1–2</div>
+        <h4>Strip &amp; clarify</h4>
+        <p>Begin with one true sentence: "We came here to take slot games deeper." Hold every published word against it. If a line could belong to any studio, rewrite it until it could only be Black Lagoon. No new creative until the foundation means something.</p>
+      </div>
+      <div class="phase reveal">
+        <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+        <div class="mo">Month 3–4</div>
+        <h4>Monster definition</h4>
+        <p>Not a logo refresh — an expedition. Who is the monster? What does it want? How does it speak? The output is a character: a voice, a role, a face that grows out of the silhouette. By month four it speaks in a post — and the room knows who it is.</p>
+      </div>
+      <div class="phase reveal">
+        <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div class="mo">Month 5–6</div>
+        <h4>AI as brand signal</h4>
+        <p>Build the Google AI Studio pipeline. Document it. Make it repeatable — then make it visible. A studio that can show how its AI thinks is <em>proving</em> the word "deeper," not merely saying it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MONSTER CONCEPT ===== -->
+<section id="monster" class="monster">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 02 · Monster Concept</p>
+    <div class="monster-grid">
+      <div>
+        <span class="nemo-tag reveal">Captain Nemo · Prince Dakkar</span>
+        <h2 class="title reveal">Not a mascot. Not a villain.<br/>An outlaw intellectual.</h2>
+        <p class="intro reveal">He left the surface not because it beat him, but because he understood it too well. So he built something better, in the dark, by his own rules. He commands absolute loyalty. He has mastered what no one above has thought to study. He owes the surface no explanation — and offers none.</p>
+        <p class="intro reveal" style="color:var(--teal-light);font-weight:700;">That's the Black Lagoon Monster.</p>
+        <div class="reveal">
+          <div class="detail"><h4>Character</h4><p>Not threatening. Commanding. He doesn't hunt — he watches. He has been down here long enough to read probability the way no surface mathematician can. When he moves, he is precise. When he speaks, it is rare, and final. And he finds the surface's hurry quietly amusing.</p></div>
+          <div class="detail"><h4>Visual direction</h4><p>Painterly, never photoreal. Comic-book bones — the Dick Tracy line. Deep navy, bioluminescent teal, a thread of gold. Partly seen, never fully shown. One eye. A hint of scale. A coin in hand, a reel in view, or simply watching from below.</p></div>
+          <div class="detail"><h4>Role in communications</h4><p>Milestone posts · game-launch narrative ("a new game enters the lagoon") · partnership moments · eventually a consistent narrator voice operators recognize and look for.</p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="voicebox">
+          <div class="vlbl">Voice — first person · minimal · declarative</div>
+          <p class="quote">I watched 1,000,000× happen. I've seen bigger.</p>
+          <p class="quote">A new game enters the lagoon.</p>
+          <p class="quote">You set the bet. I set the math.</p>
+        </div>
+        <div class="promptbrief">
+          <div class="plbl">AI concept brief · Imagen / Gemini</div>
+          <code>Ancient deep-sea entity, partially submerged, one large eye visible above water line, bioluminescent teal markings, holding a glowing casino coin, painterly comic-book style, deep navy and teal palette, gold accent light, cinematic composition, partially revealed never fully shown, noir underwater atmosphere, no text.</code>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MOODBOARD: THE WORLD BENEATH ===== -->
+<section id="world">
+  <div class="wrap">
+    <p class="eyebrow reveal">Task 02 · Part 4 — AI Concept Moodboard</p>
+    <h2 class="title reveal">The World Beneath</h2>
+    <p class="lede reveal">Ten frames — painterly, atmospheric, directional. Concept, not production. Charted in Google AI Studio with Imagen 3.</p>
+    <!-- Featured hero frame: The Comic Strip -->
+    <figure class="frame mood-hero reveal" data-full="assets/mood/comic-strip.jpg" tabindex="0" role="button" aria-label="Open The Comic Strip fullscreen">
+      <span class="gold-dot"></span>
+      <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+      <img src="assets/mood/comic-strip.jpg" width="2016" height="2088" loading="lazy" alt="The Comic Strip — hero concept art" />
+      <figcaption><span class="pn">Prompt 07 · HERO</span><h4>The Comic Strip</h4><p>Žiga reaches the shore, finds the Captain, and they go to war. Four panels — Dick Tracy meets Moebius. "The surface never saw it coming."</p></figcaption>
+    </figure>
+
+    <div class="moodgrid">
+      <figure class="frame reveal" data-full="assets/mood/lagoon.jpg" tabindex="0" role="button" aria-label="Open The Lagoon fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/lagoon.jpg" width="2200" height="933" loading="lazy" alt="The Lagoon — concept art" />
+        <figcaption><span class="pn">Prompt 01</span><h4>The Lagoon</h4><p>Establishing the world. Still water, bioluminescent depth.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/surface.jpg" tabindex="0" role="button" aria-label="Open The Surface fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/surface.jpg" width="2200" height="933" loading="lazy" alt="The Surface — concept art" />
+        <figcaption><span class="pn">Prompt 02</span><h4>The Surface</h4><p>What they left behind — generic casino noise, seen from below.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/descent.jpg" tabindex="0" role="button" aria-label="Open The Descent fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/descent.jpg" width="1228" height="2200" loading="lazy" alt="The Descent — concept art" />
+        <figcaption><span class="pn">Prompt 03</span><h4>The Descent</h4><p>Going deeper. The BLG philosophy as a choice.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/eye.jpg" tabindex="0" role="button" aria-label="Open The Eye fullscreen">
+        <span class="gold-dot"></span>
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/eye.jpg" width="2200" height="933" loading="lazy" alt="The Eye — concept art" />
+        <figcaption><span class="pn">Prompt 04</span><h4>The Eye</h4><p>First glimpse — a reel spinning in the pupil.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/nautilus.jpg" tabindex="0" role="button" aria-label="Open The Nautilus fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/nautilus.jpg" width="2200" height="933" loading="lazy" alt="The Nautilus — concept art" />
+        <figcaption><span class="pn">Prompt 05</span><h4>The Nautilus</h4><p>The studio — a machine built in the deep.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/math.jpg" tabindex="0" role="button" aria-label="Open The Math fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/math.jpg" width="2200" height="933" loading="lazy" alt="The Math — concept art" />
+        <figcaption><span class="pn">Prompt 06</span><h4>The Math</h4><p>R&amp;D depth — equations as illuminated engravings.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/game-launch.jpg" tabindex="0" role="button" aria-label="Open The Game Launch fullscreen">
+        <span class="gold-dot"></span>
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/game-launch.jpg" width="2200" height="933" loading="lazy" alt="The Game Launch — concept art" />
+        <figcaption><span class="pn">Prompt 08</span><h4>The Game Launch</h4><p>A reel descends — every launch an offering to the deep.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/partnership.jpg" tabindex="0" role="button" aria-label="Open The Partnership fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/partnership.jpg" width="2200" height="933" loading="lazy" alt="The Partnership — concept art" />
+        <figcaption><span class="pn">Prompt 09</span><h4>The Partnership</h4><p>Two creatures, different depths, same ocean.</p></figcaption>
+      </figure>
+      <figure class="frame reveal" data-full="assets/mood/surface-conquered.jpg" tabindex="0" role="button" aria-label="Open The Surface Conquered fullscreen">
+        <span class="zoom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3M11 8v6M8 11h6"/></svg></span>
+        <img src="assets/mood/surface-conquered.jpg" width="2016" height="2088" loading="lazy" alt="The Surface Conquered — concept art" />
+        <figcaption><span class="pn">Prompt 10</span><h4>The Surface Conquered</h4><p>Black Lagoon's crest rises from below. This was always inevitable.</p></figcaption>
+      </figure>
+    </div>
+    <p class="mood-note reveal">// Painterly concept direction, charted in Google AI Studio · Imagen 3. Click any frame to open it full size.</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap foot-top">
+    <div>
+      <img src="assets/logo-horizontal.png" alt="Black Lagoon Games" />
+      <h3>The surface is loud.<br/>The depth is serious.</h3>
+      <p>Delivered in good faith, as part of the AI Creative Specialist process. Strategy and concept, built to stand on its own — read it before the room, during it, or after.</p>
+    </div>
+    <div class="foot-cta">
+      <a class="btn" href="mailto:ziga@svetlikus.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Let's go deeper
+      </a>
+    </div>
+  </div>
+  <div class="foot-bar">
+    <div class="wrap foot-bar-inner">
+      <span class="mono">Žiga · Svetlikus / BadCo d.o.o.</span>
+      <span><a href="https://svetlikus.com">svetlikus.com</a> &nbsp;·&nbsp; <a href="mailto:ziga@svetlikus.com">ziga@svetlikus.com</a></span>
+      <span class="mono">v2 · June 2026</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
+  <figure>
+    <img id="lbImg" src="" alt="" />
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var hasAnime = typeof anime !== 'undefined';
+
+  // ---- Scroll reveal (IntersectionObserver + anime stagger) ----
+  if (reduce || !('IntersectionObserver' in window)){
+    document.querySelectorAll('.reveal').forEach(function(el){el.style.opacity=1;el.style.transform='none';});
+  } else {
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(!entry.isIntersecting) return;
+        var el = entry.target;
+        io.unobserve(el);
+        if(hasAnime){
+          anime({ targets: el, opacity:[0,1], translateY:[26,0], easing:'cubicBezier(.16,1,.3,1)', duration:780 });
+        } else { el.style.opacity=1; el.style.transform='none'; }
+      });
+    }, { threshold:0.12, rootMargin:'0px 0px -8% 0px' });
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  }
+
+  // ---- Hero ripple lines: rare, impactful, restrained ----
+  var canvas = document.getElementById('ripple');
+  if (canvas && !reduce){
+    var ctx = canvas.getContext('2d'), W, H, t=0;
+    function size(){ W=canvas.width=canvas.offsetWidth; H=canvas.height=canvas.offsetHeight; }
+    size(); window.addEventListener('resize', size);
+    function draw(){
+      ctx.clearRect(0,0,W,H);
+      for(var i=0;i<4;i++){
+        ctx.beginPath();
+        var amp = 6 + i*4, yBase = H*0.4 + i*22, k = 0.012 - i*0.0015;
+        for(var x=0;x<=W;x+=6){
+          var y = yBase + Math.sin(x*k + t*0.02 + i)*amp;
+          x===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+        }
+        ctx.strokeStyle = 'rgba(91,166,186,'+(0.22 - i*0.045)+')';
+        ctx.lineWidth = 1.4;
+        ctx.stroke();
+      }
+      t++; requestAnimationFrame(draw);
+    }
+    draw();
+  }
+
+  // ---- Lightbox: click any moodboard frame to view full size ----
+  var lb = document.getElementById('lightbox'),
+      lbImg = document.getElementById('lbImg'),
+      lbCap = document.getElementById('lbCap'),
+      lbClose = document.getElementById('lbClose'),
+      lastFocus = null;
+
+  function openLightbox(frame){
+    var src = frame.getAttribute('data-full');
+    if(!src) return;
+    var h4 = frame.querySelector('h4'), pn = frame.querySelector('.pn'), p = frame.querySelector('figcaption p');
+    lbImg.src = src;
+    lbImg.alt = h4 ? h4.textContent : '';
+    lbCap.innerHTML = (pn ? '<span class="pn">'+pn.textContent+'</span>' : '') +
+                      (h4 ? '<strong>'+h4.textContent+'</strong>' : '') +
+                      (p ? p.textContent : '');
+    lb.classList.add('open');
+    lastFocus = document.activeElement;
+    requestAnimationFrame(function(){ lb.classList.add('show'); });
+    lb.setAttribute('aria-hidden','false');
+    document.body.style.overflow = 'hidden';
+    lbClose.focus();
+  }
+  function closeLightbox(){
+    lb.classList.remove('show');
+    lb.setAttribute('aria-hidden','true');
+    document.body.style.overflow = '';
+    setTimeout(function(){ lb.classList.remove('open'); lbImg.src=''; }, 300);
+    if(lastFocus) lastFocus.focus();
+  }
+
+  document.querySelectorAll('.frame[data-full]').forEach(function(frame){
+    frame.addEventListener('click', function(){ openLightbox(frame); });
+    frame.addEventListener('keydown', function(e){
+      if(e.key==='Enter' || e.key===' '){ e.preventDefault(); openLightbox(frame); }
+    });
+  });
+  lb.addEventListener('click', function(e){ if(e.target !== lbImg) closeLightbox(); });
+  lbClose.addEventListener('click', closeLightbox);
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && lb.classList.contains('open')) closeLightbox(); });
+})();
+</script>
+</body>
+</html>
