@@ -282,6 +282,3 @@ Ready to:
 - Send to Luka
 
 ## Self evaluate based on Figma HTML import guardrails — OK! No further changes needed.
-
-
-To je bolj v tvojem originalnem ritmu — samo "poliran", ne prepisan.
