@@ -9,7 +9,9 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 
 ---
 
-**Na kratko o procesu:**
+# Obnova mojega razmišljanja:
+
+## Na kratko o zamišljenem procesu:
 - Pregledal vaše materiale
 - Skiciral, delal notese — brez tega mi pač ne gre
 - Figma moodboard (spomnil sem se tvoje omembe Dicka Tracyja — in vmes mi je kliknilo, da je eden mojih najljubših karakterjev Kapitan Nemo)
@@ -20,10 +22,9 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 - Claude Code je tukaj dobil vaše testne requiremente > zbuildal sem one-pager za strukturo in informacijsko vrednost glede na zahtevan output naloge > /design-flow
 - Promptal Google AI Studio 2x — prvič nisem bil zadovoljen s konsistenco, zato sem zbuildal boljši world-building prompt
 - Export code, nato mini popravki in pucanje na hitro z VSC
-- Deploy repo na GitHub, predhodno polinkano na staging Netlify
-- T+20min
+- Deploy repo na GitHub, predhodno polinkano na staging Netlify (cilj sem zgrešil za +20 minut)
 
-**Na kratko o mojih mislih (in kaj sem s tem v rešitvi naredil):**
+## Na kratko o mojih mislih (in kaj sem s tem v rešitvi naredil):
 - Vajbam dokumente, ki ste mi jih poslali
 - Par stvari hejtam. Vedno ko kjerkoli preberem "authenticity", si rečem... damn, niste avtentični. No biggie — znam to nagovoriti, in to dobro 🙂 V one-pagerju sem to besedo porezal in raje pokazal, kako brand zveni brez nje.
 - High-flying words! Too much. Ne sežejo do globine Balatona. To sem porezal in se osredotočil na tdistinct, true stvari — tiste, ki so res samo vaše.
@@ -32,11 +33,11 @@ vračam testno nalogo. Upam, da rešitev zajame vse, kar potrebujete za uvid v m
 
 Zej, jaz to tko vidim... vi imate lahko svojega monstruma pod površjem, I get it — ampak da postane Kapitan Nemo, mora še malo čokolina pojest.
 
-Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebujete za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn.
+**Pod črto: če bi se ujeli, znam(/-va) zbuildat svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem. Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool-faktor itn., katerega bi ljudje notranje občutili in hopefully integrirali v kulturo.
 
 ---
 
-Pomagala:
+## Pomagala:
 1. mood folder -> 2K images (https://aistudio.google.com/, Nano Banana Pro, gemini-3-pro-img)
 2. design flow for speed -> https://github.com/julianoczkowski/designer-skills
 3. icons -> https://icones.js.org/
@@ -46,8 +47,7 @@ Pomagala:
 
 ---
 
-Claude Session:
-# Summary: Black Lagoon Games Pitch Page Build
+# Obnova mojega Claude AI Sessiona:
 
 ## Starting Point
 - **Context:** PRD (5–10 min internal pitch), 3 PDF brand documents (strategy, CGP, presentation), 2 logo assets
@@ -102,5 +102,5 @@ Claude Session:
 - Netlify deploy
 - Send to Luka
 
-**No further changes needed** — the page is complete, accessible, performant, and stands on its own (readable before/during/after the pitch meeting).
+**Self evaluate based on Figma HTML import guardrails - No further changes needed** — the page is complete, accessible, performant, and stands on its own (readable before/during/after the pitch meeting).
 
