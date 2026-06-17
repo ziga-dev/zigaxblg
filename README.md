@@ -43,7 +43,7 @@ Zdaj, jaz to vidim tako... vi imate lahko svojega monstruma pod površjem, I get
 
 ## Nemo kot arhetip
 
-Jules Vernejev :contentReference[oaicite:0]{index=0} je idealen za Black Lagoon, ker:
+Jules Verne-ov Nemo se mi zdi idealen za Black Lagoon, ker:
 
 **Outlaw intellectual.**  
 Ni divjak, je mislec. Zapustil je površje ne zato, ker je propadel, ampak ker je razumel preveč. Zgradil je nekaj boljšega.
@@ -187,7 +187,7 @@ Interno:
 
 **Verne-esque philosophy**
 
-Ancient intelligence + precise engineering = zaupanja vredno.
+Ancient intelligence + precise engineering, despite monster = zaupanja vredno.
 
 Nemo sam = simpatičen.
 
@@ -197,11 +197,11 @@ To je to. 🫧
 
 ---
 
-Pod črto:
+**Pod črto:**
 
-Če bi se ujeli, znam(/-va) zbuildati svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem.
+**Če bi se ujeli, znam(/-va) zbuildati svet, ki bi bil po globini in resonanci tam-tam z Jules Vernom (malo cocky) in 20k miljami pod morjem.**
 
-Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool faktor itd., katerega bi ljudje občutili in integrirali v kulturo.
+**Verjamem, da bi vaši organizaciji ustvaril svet in globino, ki jo potrebuje za doseg operatorjev in uspešen B2B posel — obenem pa interno gradi full jak občutek, lojalnost, cool faktor itd., katerega bi ljudje občutili in integrirali v kulturo.**
 
 ---
 
